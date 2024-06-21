@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ .bg{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 620px;
+  text-align: center;
+  justify-content: center;
+ }
+ .box{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   object-fit: cover;
+   gap: 16px;
+   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+   background-color: aliceblue;
+   border-radius: 8px;
+ }
